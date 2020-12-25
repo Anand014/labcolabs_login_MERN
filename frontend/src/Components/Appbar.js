@@ -110,8 +110,7 @@ const Appbar = () => {
             alignItems="center"
             style={{
               position: "fixed",
-              marginLeft: "20rem",
-              marginTop: "5rem",
+              marginTop: "21rem",
             }}
           >
             <GoogleLogin
