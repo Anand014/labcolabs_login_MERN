@@ -12,7 +12,7 @@ const Profile = () => {
 
   useEffect(() => {
     if (!localStorage.getItem("userid") && !localStorage.getItem("googleId")) {
-      window.location.assign("http://localhost:5000");
+      window.location.assign("https://labcolabs-login-mern.herokuapp.com");
     } else {
       setName(localStorage.getItem("name"));
       setEmail(localStorage.getItem("email"));

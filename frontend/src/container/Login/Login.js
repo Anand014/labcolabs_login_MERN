@@ -16,7 +16,7 @@ import { Link, useHistory } from "react-router-dom";
 import Axios from "axios";
 import Swal from "sweetalert2";
 
-const SERVER = "http://localhost:5000";
+const SERVER = "https://labcolabs-login-mern.herokuapp.com";
 
 export default function Login() {
   const [email, setEmail] = useState("");

@@ -18,7 +18,7 @@ import Axios from "axios";
 import Swal from "sweetalert2";
 
 const d = new Date();
-const SERVER = "http://localhost:5000";
+const SERVER = "https://labcolabs-login-mern.herokuapp.com";
 
 export default function Register() {
   const [name, setName] = useState("");

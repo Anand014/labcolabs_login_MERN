@@ -44,7 +44,7 @@ const Appbar = () => {
       setToggler(false);
       setloader(false);
       setgoogleLogin(false);
-      window.location.assign("http://localhost:5000");
+      window.location.assign("https://labcolabs-login-mern.herokuapp.com");
     }, 2000);
   };
   const onSuccess = (res) => {
